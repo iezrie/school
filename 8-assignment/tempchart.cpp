@@ -24,7 +24,7 @@ int main()
         temp = temp + celsius;
 
         
-        cout << "  " << celsius << "degrees (C) is equivalent to  " << fahrenheit << "   degrees (F) " << endl; // output both variables on same line
+        cout << "  " << celsius << "  degrees (C) is equivalent to  " << fahrenheit << "   degrees (F) " << endl; // output both variables on same line
         celsius = celsius + 10; // increase Celsius by 10
     }
 

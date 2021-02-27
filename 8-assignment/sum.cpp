@@ -22,7 +22,7 @@ int main()
     {
         prior_sum = sum;
         sum = sum + c;   //(accumulater)  
-        cout << "[ LOOP " << c << "] " << prior_sum << " + " << c << " = " << sum << endl;
+        cout << "[ LOOP " << c << " ] " << prior_sum << " + " << c << " = " << sum << endl;
         
         c = c + 1;
     }
