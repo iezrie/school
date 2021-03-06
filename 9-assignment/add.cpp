@@ -1,11 +1,6 @@
-// Ezrie Ward
-// March 1st, 2021
-// Group Lab 07
-
-//(add) Create a program that will output the sum of all the odd
-//numbers between 1 and 99 inclusive.
-//10 points - correct output
-
+//  add.cpp
+//  Lab07
+//  Created by Ezrie Ward, D'Mitri Scott, and Destiny McManimie.
 
 #include <cstdlib>
 #include <iostream>
