@@ -1,14 +1,14 @@
 // Ezrie Ward
 // March 26th, 2021
 // Software Sales Program
-// Add code to make sure only positive numbers are used for number of units sold input
 
 #include <iostream>
 #include <iomanip>
+
 using namespace std;
 
-
 int main()
+
 
 {
 const double UNIT_PRICE = 99.0; // Constant for the unit price.
@@ -22,8 +22,7 @@ double totalCost; // Total cost
 double original_total_cost, discounted_total_cost; 
 double totalsavings;
 
-
-while (unitsSold < 1)  // EDITED Error display scenario
+while (unitsSold < 1)  
     {
         cout << "Enter the number of units sold: ";
         cin >> unitsSold;
@@ -51,18 +50,17 @@ discountPct = 0.50;                            //EDITED
 
 
 // discounted individual price (cost once percent applied)
-discountCost = UNIT_PRICE * discountPct; // Calculate the unit cost after the discount.
+discountCost = UNIT_PRICE * discountPct; 
 
 // discounted cost applied as whole (taking discounted unit price and multiplying it by the amount they bought)
-totalCost = unitsSold * discountCost; // Calculate total cost.
+totalCost = unitsSold * discountCost; 
 
 original_total_cost = UNIT_PRICE * unitsSold;
 totalsavings = original_total_cost - totalCost;
 
-
 cout << fixed << showpoint << setprecision(2);
 
-// Display the total cost.
+// Display the total cost
 cout << "The total cost of the purchase is: " << totalCost << endl;
 cout << "You saved $ " << totalsavings << " dollars today. " << endl; 
 
